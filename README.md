@@ -18,10 +18,11 @@ console.log(message)
 运行
 
 ```sh
-tsc hello-world.ts
+tsc src/hello-world.ts
+# 或者 tsc src/*
 ```
 
-> 会自动编译一个 hellow-world.js 文件
+> 会自动编译一个 `hellow-world.js` 文件
 
 ## 在 Node 中使用 TS
 
@@ -38,6 +39,8 @@ ts-node-dev src/hello-world.ts
 ```
 
 ## 使用 VSCode 运行 TS
+
+> 如果克隆了当前项目，只需要 `yarn install` 即可
 
 初始化项目
 
